@@ -8,7 +8,7 @@ const NavLinkItem = ({name, path}) => {
         <NavLink
          to={path}
         className={({isActive}) => 
-        isActive ? 'bg-purple-700 text-white border-4 border-purple-800 p-2 px-3 transition-all duration-100 ease-in-out' : 'text-purple-700 hover:text-purple-900'
+        isActive ? ' text-purple-800 border-b-3 p-0.5 px-2 transition-all ease-in-out' : 'text-purple-700 hover:text-purple-900'
         }
         >
             {name}
