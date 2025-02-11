@@ -11,14 +11,14 @@ const Navbar = () => {
     >
       <div className="flex w-[95vw] mx-auto py-2  items-center justify-between">
         <Link to={"/"}>
-          <p className="text-2xl font-bold py-2 px-3 text-center text-purple-900">
+          <p className="text-xl font-bold py-2 px-3 text-center text-purple-900">
             EventHub
           </p>
         </Link>
 
         <div className="hidden lg:inline-block">
           <nav className=" p-4 flex justify-between items-center">
-            <ul className="flex space-x-4">
+            <ul className="flex gap-x-4 ">
               {navLinksData.map((link, ind) => (
                 <NavLinkItem key={ind} name={link.name} path={link.path} />
               ))}

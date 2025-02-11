@@ -1,8 +1,7 @@
 const navLinksData = [
   { name: "Home", path: "/" },
-  { name: "Events", path: "/events" },
-  { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
+  { name: "Create Events", path: "/create-events" },
+  { name: "Find Events", path: "/find-events" },
 ];
 
 export default navLinksData;
